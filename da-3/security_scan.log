@@ -1,0 +1,1294 @@
+2024-10-21 20:00:53,645 - INFO - Starting security scan of http://example.com
+2024-10-21 20:00:53,661 - INFO - Scanning endpoint: http://example.com/
+2024-10-21 20:00:53,661 - INFO - Scanning endpoint: http://example.com/login
+2024-10-21 20:00:53,661 - INFO - Scanning endpoint: http://example.com/search
+2024-10-21 20:00:53,661 - INFO - Scanning endpoint: http://example.com/profile
+2024-10-21 20:00:53,661 - INFO - Scanning endpoint: http://example.com/admin
+2024-10-21 20:01:01,967 - INFO - Scanning endpoint: http://example.com/api/users
+2024-10-21 20:01:01,978 - INFO - Scanning endpoint: http://example.com/api/products
+2024-10-21 20:01:01,993 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'http://example.com/', 'issue': 'Missing X-Frame-Options', 'description': 'Vulnerable to clickjacking'}
+2024-10-21 20:01:01,993 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'http://example.com/', 'issue': 'Missing X-Content-Type-Options', 'description': 'MIME-sniffing vulnerability'}
+2024-10-21 20:01:01,993 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'http://example.com/', 'issue': 'Missing CSP', 'description': 'No Content Security Policy'}
+2024-10-21 20:01:02,000 - INFO - Scanning endpoint: http://example.com/register
+2024-10-21 20:01:02,240 - INFO - Scanning endpoint: http://example.com/forgot-password
+2024-10-21 20:01:03,950 - INFO - Scanning endpoint: http://example.com/settings
+2024-10-21 20:01:10,904 - INFO - Scan completed in 17.26 seconds
+2024-10-21 20:09:59,187 - INFO - Starting security scan of http://example.com
+2024-10-21 20:09:59,187 - INFO - Scanning endpoint: http://example.com/
+2024-10-21 20:09:59,187 - INFO - Scanning endpoint: http://example.com/login
+2024-10-21 20:09:59,187 - INFO - Scanning endpoint: http://example.com/search
+2024-10-21 20:09:59,187 - INFO - Scanning endpoint: http://example.com/profile
+2024-10-21 20:09:59,187 - INFO - Scanning endpoint: http://example.com/admin
+2024-10-21 20:10:07,720 - INFO - Scanning endpoint: http://example.com/api/users
+2024-10-21 20:10:07,756 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'http://example.com/', 'issue': 'Missing X-Frame-Options', 'description': 'Vulnerable to clickjacking'}
+2024-10-21 20:10:07,756 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'http://example.com/', 'issue': 'Missing X-Content-Type-Options', 'description': 'MIME-sniffing vulnerability'}
+2024-10-21 20:10:07,759 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'http://example.com/', 'issue': 'Missing CSP', 'description': 'No Content Security Policy'}
+2024-10-21 20:10:07,760 - INFO - Scanning endpoint: http://example.com/api/products
+2024-10-21 20:10:07,871 - INFO - Scanning endpoint: http://example.com/register
+2024-10-21 20:10:08,530 - INFO - Scanning endpoint: http://example.com/forgot-password
+2024-10-21 20:10:09,291 - INFO - Scanning endpoint: http://example.com/settings
+2024-10-21 20:10:16,174 - INFO - Scan completed in 16.99 seconds
+2024-10-21 20:10:43,607 - INFO - Starting security scan of http://example.com
+2024-10-21 20:10:43,607 - INFO - Scanning endpoint: http://example.com/
+2024-10-21 20:10:43,607 - INFO - Scanning endpoint: http://example.com/login
+2024-10-21 20:10:43,607 - INFO - Scanning endpoint: http://example.com/search
+2024-10-21 20:10:43,607 - INFO - Scanning endpoint: http://example.com/profile
+2024-10-21 20:10:43,607 - INFO - Scanning endpoint: http://example.com/admin
+2024-10-21 20:10:51,005 - INFO - Scanning endpoint: http://example.com/api/users
+2024-10-21 20:10:51,028 - INFO - Scanning endpoint: http://example.com/api/products
+2024-10-21 20:10:51,452 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'http://example.com/', 'issue': 'Missing X-Frame-Options', 'description': 'Vulnerable to clickjacking'}
+2024-10-21 20:10:51,452 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'http://example.com/', 'issue': 'Missing X-Content-Type-Options', 'description': 'MIME-sniffing vulnerability'}
+2024-10-21 20:10:51,452 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'http://example.com/', 'issue': 'Missing CSP', 'description': 'No Content Security Policy'}
+2024-10-21 20:10:51,452 - INFO - Scanning endpoint: http://example.com/register
+2024-10-21 20:10:51,631 - INFO - Scanning endpoint: http://example.com/forgot-password
+2024-10-21 20:10:51,802 - INFO - Scanning endpoint: http://example.com/settings
+2024-10-21 20:10:59,702 - INFO - Scan completed in 16.09 seconds
+2024-10-21 20:15:09,760 - INFO - Starting security scan of https://www.fao.org/
+2024-10-21 20:15:09,760 - INFO - Scanning endpoint: https://www.fao.org/
+2024-10-21 20:15:09,760 - INFO - Scanning endpoint: https://www.fao.org/login
+2024-10-21 20:15:09,760 - INFO - Scanning endpoint: https://www.fao.org/search
+2024-10-21 20:15:09,760 - INFO - Scanning endpoint: https://www.fao.org/profile
+2024-10-21 20:15:09,760 - INFO - Scanning endpoint: https://www.fao.org/admin
+2024-10-21 20:15:18,341 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://www.fao.org/search', 'issue': 'Missing X-Frame-Options', 'description': 'Vulnerable to clickjacking'}
+2024-10-21 20:15:18,341 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://www.fao.org/search', 'issue': 'Missing X-Content-Type-Options', 'description': 'MIME-sniffing vulnerability'}
+2024-10-21 20:15:18,341 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://www.fao.org/search', 'issue': 'Missing CSP', 'description': 'No Content Security Policy'}
+2024-10-21 20:15:18,341 - INFO - Scanning endpoint: https://www.fao.org/api/users
+2024-10-21 20:15:18,967 - INFO - Scanning endpoint: https://www.fao.org/api/products
+2024-10-21 20:15:23,022 - ERROR - Request failed for https://www.fao.org/profile: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-21 20:15:23,303 - ERROR - Request failed for https://www.fao.org/login: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-21 20:15:23,630 - ERROR - Request failed for https://www.fao.org/admin: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-21 20:15:26,040 - INFO - Scanning endpoint: https://www.fao.org/register
+2024-10-21 20:15:26,089 - INFO - Scanning endpoint: https://www.fao.org/forgot-password
+2024-10-21 20:15:26,788 - INFO - Scanning endpoint: https://www.fao.org/settings
+2024-10-21 20:15:39,723 - ERROR - Request failed for https://www.fao.org/forgot-password: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-21 20:15:39,887 - ERROR - Request failed for https://www.fao.org/register: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-21 20:15:40,155 - ERROR - Request failed for https://www.fao.org/settings: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-21 20:15:43,912 - INFO - Scan completed in 34.15 seconds
+2024-10-21 20:21:24,947 - INFO - Starting security scan of localhost/ISM
+2024-10-21 20:21:24,963 - INFO - Scanning endpoint: /
+2024-10-21 20:21:24,963 - INFO - Scanning endpoint: /login
+2024-10-21 20:21:24,963 - INFO - Scanning endpoint: /search
+2024-10-21 20:21:24,963 - INFO - Scanning endpoint: /profile
+2024-10-21 20:21:24,963 - INFO - Scanning endpoint: /admin
+2024-10-21 20:21:25,130 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 20:21:25,186 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 20:21:25,214 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 20:21:25,259 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 20:21:25,302 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 20:21:25,345 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 20:21:25,390 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 20:21:25,561 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 20:21:25,600 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 20:21:25,666 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 20:21:25,686 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 20:21:25,697 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 20:21:25,823 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 20:21:25,832 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 20:21:25,879 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 20:21:25,949 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 20:21:25,981 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 20:21:26,006 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 20:21:26,017 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 20:21:26,158 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 20:21:26,162 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 20:21:26,221 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 20:21:26,281 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 20:21:26,351 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 20:21:26,361 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 20:21:26,443 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 20:21:26,465 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 20:21:26,691 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 20:21:26,697 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 20:21:26,708 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 20:21:26,734 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 20:21:26,751 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 20:21:26,810 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 20:21:26,950 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 20:21:27,027 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 20:21:27,027 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 20:21:27,033 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 20:21:27,177 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 20:21:27,179 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 20:21:27,388 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 20:21:27,410 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 20:21:27,436 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 20:21:27,471 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 20:21:27,584 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 20:21:27,631 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 20:21:27,665 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 20:21:27,707 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 20:21:27,762 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 20:21:27,827 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 20:21:27,912 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 20:21:27,922 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 20:21:27,979 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 20:21:28,041 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 20:21:28,122 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 20:21:28,167 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 20:21:28,185 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 20:21:28,259 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 20:21:28,350 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 20:21:28,350 - INFO - Scanning endpoint: /api/users
+2024-10-21 20:21:28,354 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 20:21:28,386 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 20:21:28,386 - INFO - Scanning endpoint: /api/products
+2024-10-21 20:21:28,405 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 20:21:28,515 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 20:21:28,583 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 20:21:28,583 - INFO - Scanning endpoint: /register
+2024-10-21 20:21:28,679 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 20:21:28,679 - INFO - Scanning endpoint: /forgot-password
+2024-10-21 20:21:28,760 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 20:21:28,858 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 20:21:28,866 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 20:21:28,950 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 20:21:29,119 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 20:21:29,167 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 20:21:29,175 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 20:21:29,311 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 20:21:29,311 - INFO - Scanning endpoint: /settings
+2024-10-21 20:21:29,362 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 20:21:29,444 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 20:21:29,467 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 20:21:29,476 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 20:21:29,526 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 20:21:29,572 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 20:21:29,759 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 20:21:29,763 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 20:21:29,800 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 20:21:29,837 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 20:21:29,907 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 20:21:29,972 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 20:21:30,007 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 20:21:30,009 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 20:21:30,016 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 20:21:30,022 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 20:21:30,135 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 20:21:30,162 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 20:21:30,197 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 20:21:30,226 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 20:21:30,359 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 20:21:30,376 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 20:21:30,424 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 20:21:30,436 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 20:21:30,460 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 20:21:30,538 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 20:21:30,574 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 20:21:30,682 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 20:21:30,792 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 20:21:30,802 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 20:21:30,946 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 20:21:30,947 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 20:21:31,044 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 20:21:31,059 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 20:21:31,132 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 20:21:31,164 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 20:21:31,166 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 20:21:31,212 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 20:21:31,325 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 20:21:31,460 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 20:21:31,461 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 20:21:31,464 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 20:21:31,596 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 20:21:31,761 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 20:21:31,873 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 20:21:31,874 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 20:21:31,910 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 20:21:31,933 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 20:21:31,997 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 20:21:32,059 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 20:21:32,212 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 20:21:32,229 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 20:21:32,352 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 20:21:32,356 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 20:21:32,406 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 20:21:32,519 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 20:21:32,573 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 20:21:32,826 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 20:21:32,826 - INFO - Scan completed in 7.88 seconds
+2024-10-21 21:10:52,427 - INFO - Starting security scan of localhost/ISM
+2024-10-21 21:10:52,427 - INFO - Scanning endpoint: /
+2024-10-21 21:10:52,427 - INFO - Scanning endpoint: /login
+2024-10-21 21:10:52,427 - INFO - Scanning endpoint: /search
+2024-10-21 21:10:52,427 - INFO - Scanning endpoint: /profile
+2024-10-21 21:10:52,427 - INFO - Scanning endpoint: /admin
+2024-10-21 21:10:52,583 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:10:52,679 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:10:52,687 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:10:52,748 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:10:52,830 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:10:52,832 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:10:52,836 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:10:52,978 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:10:53,060 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:10:53,142 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:10:53,157 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:10:53,177 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:10:53,177 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:10:53,289 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:10:53,392 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:10:53,426 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:10:53,487 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:10:53,588 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:10:53,652 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:10:53,669 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:10:53,767 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:10:53,771 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:10:53,841 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:10:53,980 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:10:54,046 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:10:54,095 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:10:54,110 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:10:54,231 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:10:54,401 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:10:54,426 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:10:54,427 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:10:54,464 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:10:54,465 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:10:54,705 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:10:54,748 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:10:54,764 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:10:54,767 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:10:54,852 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:10:54,886 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:10:54,945 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:10:54,967 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:10:55,018 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:10:55,058 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:10:55,092 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:10:55,121 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:10:55,315 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:10:55,405 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:10:55,420 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:10:55,445 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:10:55,508 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:10:55,519 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:10:55,567 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:10:55,606 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:10:55,814 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:10:55,823 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:10:55,823 - INFO - Scanning endpoint: /api/users
+2024-10-21 21:10:55,872 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:10:55,893 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:10:55,920 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:10:56,099 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:10:56,099 - INFO - Scanning endpoint: /api/products
+2024-10-21 21:10:56,244 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:10:56,261 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:10:56,273 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:10:56,365 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:10:56,365 - INFO - Scanning endpoint: /register
+2024-10-21 21:10:56,367 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:10:56,551 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:10:56,552 - INFO - Scanning endpoint: /forgot-password
+2024-10-21 21:10:56,595 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:10:56,602 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:10:56,701 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:10:56,726 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:10:56,747 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:10:56,825 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:10:56,825 - INFO - Scanning endpoint: /settings
+2024-10-21 21:10:56,853 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:10:56,867 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:10:56,990 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:10:57,040 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:10:57,044 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:10:57,154 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:10:57,236 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:10:57,284 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:10:57,294 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:10:57,383 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:10:57,463 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:10:57,482 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:10:57,491 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:10:57,543 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:10:57,606 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:10:57,713 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:10:57,739 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:10:57,790 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:10:57,852 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:10:57,918 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:10:57,923 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:10:58,030 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:10:58,050 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:10:58,065 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:10:58,156 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:10:58,238 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:10:58,248 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:10:58,297 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:10:58,376 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:10:58,427 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:10:58,538 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:10:58,557 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:10:58,597 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:10:58,603 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:10:58,733 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:10:58,742 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:10:58,876 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:10:58,910 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:10:58,914 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:10:58,951 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:10:59,017 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:10:59,028 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:10:59,130 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:10:59,139 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:10:59,174 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:10:59,192 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:10:59,295 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:10:59,309 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:10:59,340 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:10:59,491 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:10:59,552 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:10:59,675 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:10:59,678 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:10:59,786 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:10:59,964 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:11:00,080 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:11:00,255 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:11:00,386 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:11:00,560 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:11:00,561 - INFO - Scan completed in 8.13 seconds
+2024-10-21 21:27:49,604 - INFO - Starting security scan of http://example.com
+2024-10-21 21:27:49,605 - INFO - Scanning endpoint: /
+2024-10-21 21:27:56,724 - INFO - Scanning endpoint: /login
+2024-10-21 21:28:03,925 - INFO - Scanning endpoint: /search
+2024-10-21 21:28:10,971 - INFO - Scanning endpoint: /profile
+2024-10-21 21:28:18,057 - INFO - Scanning endpoint: /admin
+2024-10-21 21:28:25,067 - INFO - Scanning endpoint: /api
+2024-10-21 21:28:32,629 - INFO - Scanning endpoint: /upload
+2024-10-21 21:28:39,793 - INFO - Scanning endpoint: /settings
+2024-10-21 21:31:45,121 - INFO - Starting security scan of localhost/ISM
+2024-10-21 21:31:45,121 - INFO - Scanning endpoint: /
+2024-10-21 21:31:45,124 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:31:45,124 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:31:45,124 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:31:45,124 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:31:45,125 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:31:45,125 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:31:45,125 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:31:45,125 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:31:45,126 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:31:45,126 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:31:45,126 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:31:45,126 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:31:45,126 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:31:45,127 - INFO - Scanning endpoint: /login
+2024-10-21 21:31:45,127 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:31:45,127 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:31:45,128 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:31:45,128 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:31:45,128 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:31:45,128 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:31:45,129 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:31:45,129 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:31:45,129 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:31:45,129 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:31:45,130 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:31:45,130 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:31:45,130 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:31:45,131 - INFO - Scanning endpoint: /search
+2024-10-21 21:31:45,131 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:31:45,131 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:31:45,131 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:31:45,132 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:31:45,132 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:31:45,132 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:31:45,133 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:31:45,133 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:31:45,133 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:31:45,134 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:31:45,134 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:31:45,135 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:31:45,135 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:31:45,135 - INFO - Scanning endpoint: /profile
+2024-10-21 21:31:45,135 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:31:45,135 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:31:45,137 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:31:45,137 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:31:45,137 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:31:45,137 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:31:45,138 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:31:45,138 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:31:45,138 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:31:45,138 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:31:45,138 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:31:45,139 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:31:45,139 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:31:45,139 - INFO - Scanning endpoint: /admin
+2024-10-21 21:31:45,139 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:31:45,139 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:31:45,139 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:31:45,139 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:31:45,141 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:31:45,141 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:31:45,141 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:31:45,141 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:31:45,142 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:31:45,142 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:31:45,142 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:31:45,142 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:31:45,142 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:31:45,143 - INFO - Scanning endpoint: /api
+2024-10-21 21:31:45,143 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:31:45,143 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:31:45,144 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:31:45,144 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:31:45,144 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:31:45,144 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:31:45,145 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:31:45,145 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:31:45,145 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:31:45,145 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:31:45,146 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:31:45,146 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:31:45,146 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:31:45,146 - INFO - Scanning endpoint: /upload
+2024-10-21 21:31:45,147 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:31:45,147 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:31:45,147 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:31:45,147 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:31:45,148 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:31:45,148 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:31:45,148 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:31:45,148 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:31:45,149 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:31:45,149 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:31:45,149 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:31:45,150 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:31:45,150 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:31:45,150 - INFO - Scanning endpoint: /settings
+2024-10-21 21:31:45,151 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:31:45,151 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:31:45,151 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:31:45,152 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:31:45,152 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:31:45,152 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:31:45,152 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:31:45,153 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:31:45,153 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:31:45,153 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:31:45,153 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:31:45,154 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:31:45,154 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:41,114 - INFO - Starting security scan of w3.org
+2024-10-21 21:32:41,115 - INFO - Scanning endpoint: /
+2024-10-21 21:32:41,117 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:41,117 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:41,118 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:41,118 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:41,118 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:41,118 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:41,119 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:41,119 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:41,119 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:41,119 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:41,120 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:41,120 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:41,120 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:41,121 - INFO - Scanning endpoint: /login
+2024-10-21 21:32:41,121 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:41,121 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:41,121 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:41,122 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:41,122 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:41,122 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:41,122 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:41,122 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:41,123 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:41,123 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:41,123 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:41,123 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:41,124 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:41,124 - INFO - Scanning endpoint: /search
+2024-10-21 21:32:41,124 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:41,125 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:41,125 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:41,125 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:41,125 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:41,126 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:41,126 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:41,126 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:41,126 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:41,127 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:41,127 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:41,127 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:41,128 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:41,128 - INFO - Scanning endpoint: /profile
+2024-10-21 21:32:41,129 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:41,129 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:41,129 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:41,129 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:41,130 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:41,130 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:41,130 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:41,130 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:41,131 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:41,131 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:41,131 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:41,131 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:41,131 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:41,132 - INFO - Scanning endpoint: /admin
+2024-10-21 21:32:41,132 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:41,132 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:41,132 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:41,133 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:41,133 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:41,133 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:41,133 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:41,133 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:41,134 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:41,134 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:41,134 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:41,134 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:41,135 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:41,135 - INFO - Scanning endpoint: /api
+2024-10-21 21:32:41,135 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:41,135 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:41,136 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:41,136 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:41,136 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:41,136 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:41,137 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:41,137 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:41,137 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:41,137 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:41,137 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:41,138 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:41,138 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:41,138 - INFO - Scanning endpoint: /upload
+2024-10-21 21:32:41,139 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:41,139 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:41,139 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:41,139 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:41,139 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:41,140 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:41,140 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:41,140 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:41,140 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:41,141 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:41,141 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:41,141 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:41,141 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:41,142 - INFO - Scanning endpoint: /settings
+2024-10-21 21:32:41,142 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:41,143 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:41,143 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:41,143 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:41,143 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:41,144 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:41,144 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:41,144 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:41,144 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:41,145 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:41,145 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:41,145 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:41,145 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:57,245 - INFO - Starting security scan of w3.org
+2024-10-21 21:32:57,245 - INFO - Scanning endpoint: /
+2024-10-21 21:32:57,248 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:57,248 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:57,248 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:57,249 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:57,249 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:57,249 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:57,249 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:57,250 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:57,250 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:57,250 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:57,250 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:57,250 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:57,251 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:32:57,251 - INFO - Scanning endpoint: /login
+2024-10-21 21:32:57,251 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:57,251 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:57,252 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:57,252 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:57,252 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:57,253 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:57,253 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:57,253 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:57,253 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:57,253 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:57,254 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:57,254 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:57,254 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:32:57,255 - INFO - Scanning endpoint: /search
+2024-10-21 21:32:57,255 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:57,255 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:57,255 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:57,256 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:57,256 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:57,256 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:57,257 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:57,257 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:57,257 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:57,258 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:57,258 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:57,259 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:57,259 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:32:57,259 - INFO - Scanning endpoint: /profile
+2024-10-21 21:32:57,260 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:57,260 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:57,260 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:57,260 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:57,261 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:57,261 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:57,261 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:57,261 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:57,261 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:57,262 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:57,262 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:57,262 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:57,262 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:32:57,263 - INFO - Scanning endpoint: /admin
+2024-10-21 21:32:57,263 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:57,263 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:57,263 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:57,263 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:57,264 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:57,264 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:57,264 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:57,264 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:57,265 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:57,265 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:57,265 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:57,265 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:57,265 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:32:57,266 - INFO - Scanning endpoint: /api
+2024-10-21 21:32:57,266 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:57,266 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:57,267 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:57,267 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:57,267 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:57,267 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:57,267 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:57,268 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:57,268 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:57,268 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:57,268 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:57,268 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:57,269 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 21:32:57,269 - INFO - Scanning endpoint: /upload
+2024-10-21 21:32:57,269 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:57,270 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:57,270 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:57,270 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:57,270 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:57,270 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:57,271 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:57,271 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:57,271 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:57,271 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:57,272 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:57,272 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:57,272 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 21:32:57,272 - INFO - Scanning endpoint: /settings
+2024-10-21 21:32:57,273 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:57,273 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:57,274 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:57,274 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:57,274 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:57,275 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:57,275 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:57,275 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:57,276 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:57,276 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:57,276 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:57,277 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:32:57,277 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:33:46,118 - INFO - Starting security scan of localhost/ISM
+2024-10-21 21:33:46,120 - INFO - Scanning endpoint: /
+2024-10-21 21:33:46,120 - INFO - Scanning endpoint: /login
+2024-10-21 21:33:46,121 - INFO - Scanning endpoint: /search
+2024-10-21 21:33:46,121 - INFO - Scanning endpoint: /profile
+2024-10-21 21:33:46,122 - INFO - Scanning endpoint: /admin
+2024-10-21 21:33:46,276 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:33:46,305 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:33:46,315 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:33:46,344 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:33:46,372 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:33:46,492 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:33:46,513 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:33:46,535 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:33:46,586 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:33:46,775 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:33:46,775 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:33:46,868 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:33:46,897 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:33:46,956 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:33:46,970 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:33:47,064 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:33:47,119 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:33:47,152 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:33:47,229 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:33:47,267 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:33:47,432 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:33:47,452 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:33:47,469 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:33:47,542 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:33:47,622 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:33:47,629 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:33:47,715 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:33:47,774 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:33:47,807 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:33:47,854 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:33:47,998 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:33:48,016 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:33:48,123 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:33:48,133 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:33:48,185 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:33:48,214 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:33:48,242 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:33:48,440 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:33:48,494 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:33:48,504 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:33:48,506 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:33:48,548 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:33:48,666 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:33:48,718 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:33:48,866 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:33:48,885 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:33:48,931 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:33:48,976 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:33:49,032 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:33:49,126 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:33:49,162 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:33:49,239 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:33:49,257 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:33:49,384 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:33:49,386 - INFO - Scanning endpoint: /api/users
+2024-10-21 21:33:49,473 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:33:49,552 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:33:49,630 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:33:49,657 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:33:49,701 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:33:49,802 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:33:49,866 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:33:49,867 - INFO - Scanning endpoint: /api/products
+2024-10-21 21:33:49,967 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:33:49,970 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:33:49,976 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:33:49,977 - INFO - Scanning endpoint: /register
+2024-10-21 21:33:50,078 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:33:50,079 - INFO - Scanning endpoint: /forgot-password
+2024-10-21 21:33:50,168 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:33:50,177 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:33:50,235 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:33:50,310 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:33:50,353 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:33:50,411 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:33:50,424 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:33:50,457 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:33:50,581 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:33:50,614 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:33:50,691 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:33:50,710 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:33:50,751 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:33:50,816 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:33:50,818 - INFO - Scanning endpoint: /settings
+2024-10-21 21:33:51,026 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:33:51,097 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:33:51,101 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:33:51,120 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:33:51,182 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:33:51,276 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:33:51,282 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:33:51,309 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:33:51,350 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:33:51,563 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:33:51,574 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:33:51,664 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:33:51,686 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:33:51,691 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:33:51,775 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:33:51,813 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:33:51,829 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:33:51,882 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:33:51,885 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:33:51,979 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:33:52,076 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:33:52,113 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:33:52,176 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:33:52,194 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:33:52,272 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:33:52,282 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:33:52,438 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:33:52,485 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:33:52,540 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:33:52,591 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:33:52,626 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:33:52,647 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:33:52,835 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:33:52,900 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:33:52,979 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:33:52,995 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:33:53,045 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:33:53,173 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:33:53,192 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:33:53,225 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:33:53,302 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:33:53,411 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:33:53,497 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:33:53,671 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:33:53,805 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:33:53,959 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:33:54,045 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:33:54,196 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:33:54,285 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:33:54,589 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:33:55,034 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:33:55,036 - INFO - Scan completed in 8.92 seconds
+2024-10-21 21:34:32,159 - INFO - Starting security scan of www.fao.org
+2024-10-21 21:34:32,161 - INFO - Scanning endpoint: /
+2024-10-21 21:34:32,162 - INFO - Scanning endpoint: /login
+2024-10-21 21:34:32,162 - INFO - Scanning endpoint: /search
+2024-10-21 21:34:32,162 - INFO - Scanning endpoint: /profile
+2024-10-21 21:34:32,163 - INFO - Scanning endpoint: /admin
+2024-10-21 21:34:32,272 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:34:32,338 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:34:32,417 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:34:32,482 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:34:32,510 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:34:32,579 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:34:32,609 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:34:32,637 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:34:32,787 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:34:32,852 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:34:32,882 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:34:32,960 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:34:32,980 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:34:32,985 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:34:33,038 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:34:33,050 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:34:33,155 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:34:33,238 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:34:33,345 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:34:33,363 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:34:33,381 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:34:33,441 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:34:33,443 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:34:33,527 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:34:33,615 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:34:33,647 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:34:33,738 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:34:33,817 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:34:33,839 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:34:33,862 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:34:33,961 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:34:34,018 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:34:34,189 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:34:34,238 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:34:34,264 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:34:34,311 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:34:34,472 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:34:34,518 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:34:34,535 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:34:34,544 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:34:34,546 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:34:34,590 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:34:34,674 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:34:34,736 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:34:34,780 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:34:34,842 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:34:34,905 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:34:34,985 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:34:35,008 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:34:35,238 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:34:35,248 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:34:35,258 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:34:35,307 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:34:35,417 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:34:35,582 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:34:35,625 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:34:35,637 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:34:35,669 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:34:35,682 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 21:34:35,683 - INFO - Scanning endpoint: /api/users
+2024-10-21 21:34:35,754 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:34:35,946 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 21:34:35,947 - INFO - Scanning endpoint: /api/products
+2024-10-21 21:34:35,951 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 21:34:35,952 - INFO - Scanning endpoint: /register
+2024-10-21 21:34:35,990 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:34:36,017 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 21:34:36,019 - INFO - Scanning endpoint: /forgot-password
+2024-10-21 21:34:36,163 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:34:36,208 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:34:36,342 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:34:36,367 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:34:36,372 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:34:36,413 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 21:34:36,415 - INFO - Scanning endpoint: /settings
+2024-10-21 21:34:36,483 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:34:36,569 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:34:36,614 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:34:36,698 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:34:36,759 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:34:36,822 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:34:36,897 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:34:36,970 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:34:37,033 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:34:37,152 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:34:37,183 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:34:37,185 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:34:37,200 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:34:37,298 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:34:37,446 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:34:37,449 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:34:37,469 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:34:37,535 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:34:37,652 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:34:37,695 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:34:37,845 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:34:37,890 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:34:37,897 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:34:38,010 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:34:38,035 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:34:38,111 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:34:38,163 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:34:38,330 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:34:38,353 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:34:38,486 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:34:38,497 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:34:38,503 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:34:38,597 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:34:38,686 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:34:38,786 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:34:38,789 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:34:38,815 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:34:38,954 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:34:39,158 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:34:39,164 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:34:39,201 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:34:39,249 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:34:39,250 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:34:39,478 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:34:39,502 - ERROR - Request failed for /api/users: Invalid URL '/api/users': No scheme supplied. Perhaps you meant https:///api/users?
+2024-10-21 21:34:39,506 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:34:39,550 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:34:39,594 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:34:39,604 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:34:39,711 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:34:39,879 - ERROR - Request failed for /register: Invalid URL '/register': No scheme supplied. Perhaps you meant https:///register?
+2024-10-21 21:34:39,880 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:34:39,897 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:34:39,922 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:34:40,144 - ERROR - Request failed for /forgot-password: Invalid URL '/forgot-password': No scheme supplied. Perhaps you meant https:///forgot-password?
+2024-10-21 21:34:40,290 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:34:40,351 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:34:40,487 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:34:40,711 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 21:34:40,815 - ERROR - Request failed for /api/products: Invalid URL '/api/products': No scheme supplied. Perhaps you meant https:///api/products?
+2024-10-21 21:34:40,817 - INFO - Scan completed in 8.66 seconds
+2024-10-21 21:35:42,346 - INFO - Starting security scan of https://www.fao.org/
+2024-10-21 21:35:42,349 - INFO - Scanning endpoint: https://www.fao.org/
+2024-10-21 21:35:42,350 - INFO - Scanning endpoint: https://www.fao.org/login
+2024-10-21 21:35:42,350 - INFO - Scanning endpoint: https://www.fao.org/search
+2024-10-21 21:35:42,350 - INFO - Scanning endpoint: https://www.fao.org/profile
+2024-10-21 21:35:42,351 - INFO - Scanning endpoint: https://www.fao.org/admin
+2024-10-21 21:35:52,253 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://www.fao.org/search', 'issue': 'Missing X-Frame-Options', 'description': 'Vulnerable to clickjacking'}
+2024-10-21 21:35:52,254 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://www.fao.org/search', 'issue': 'Missing X-Content-Type-Options', 'description': 'MIME-sniffing vulnerability'}
+2024-10-21 21:35:52,255 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://www.fao.org/search', 'issue': 'Missing CSP', 'description': 'No Content Security Policy'}
+2024-10-21 21:35:52,257 - INFO - Scanning endpoint: https://www.fao.org/api/users
+2024-10-21 21:35:54,242 - INFO - Scanning endpoint: https://www.fao.org/api/products
+2024-10-21 21:35:56,131 - ERROR - Request failed for https://www.fao.org/login: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-21 21:35:56,973 - ERROR - Request failed for https://www.fao.org/profile: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-21 21:35:57,221 - ERROR - Request failed for https://www.fao.org/admin: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-21 21:35:59,604 - INFO - Scanning endpoint: https://www.fao.org/register
+2024-10-21 21:35:59,875 - INFO - Scanning endpoint: https://www.fao.org/forgot-password
+2024-10-21 21:36:01,213 - INFO - Scanning endpoint: https://www.fao.org/settings
+2024-10-21 21:36:13,112 - ERROR - Request failed for https://www.fao.org/register: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-21 21:36:13,499 - ERROR - Request failed for https://www.fao.org/forgot-password: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-21 21:36:14,358 - ERROR - Request failed for https://www.fao.org/settings: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-21 21:36:17,716 - INFO - Scan completed in 35.37 seconds
+2024-10-21 22:05:06,525 - INFO - Starting security scan of w3.org
+2024-10-21 22:05:06,527 - INFO - Scanning endpoint: /
+2024-10-21 22:05:06,532 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 22:05:06,532 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 22:05:06,532 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 22:05:06,533 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 22:05:06,533 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 22:05:06,533 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 22:05:06,533 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 22:05:06,534 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 22:05:06,534 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 22:05:06,534 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 22:05:06,534 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 22:05:06,534 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 22:05:06,535 - ERROR - Request failed for /: Invalid URL '/': No scheme supplied. Perhaps you meant https:///?
+2024-10-21 22:05:06,535 - INFO - Scanning endpoint: /login
+2024-10-21 22:05:06,535 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 22:05:06,536 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 22:05:06,536 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 22:05:06,536 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 22:05:06,536 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 22:05:06,537 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 22:05:06,537 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 22:05:06,537 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 22:05:06,537 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 22:05:06,538 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 22:05:06,538 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 22:05:06,538 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 22:05:06,538 - ERROR - Request failed for /login: Invalid URL '/login': No scheme supplied. Perhaps you meant https:///login?
+2024-10-21 22:05:06,539 - INFO - Scanning endpoint: /search
+2024-10-21 22:05:06,539 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 22:05:06,539 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 22:05:06,539 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 22:05:06,540 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 22:05:06,540 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 22:05:06,540 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 22:05:06,541 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 22:05:06,541 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 22:05:06,541 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 22:05:06,541 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 22:05:06,541 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 22:05:06,542 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 22:05:06,542 - ERROR - Request failed for /search: Invalid URL '/search': No scheme supplied. Perhaps you meant https:///search?
+2024-10-21 22:05:06,542 - INFO - Scanning endpoint: /profile
+2024-10-21 22:05:06,543 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 22:05:06,543 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 22:05:06,543 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 22:05:06,543 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 22:05:06,544 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 22:05:06,544 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 22:05:06,544 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 22:05:06,544 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 22:05:06,544 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 22:05:06,545 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 22:05:06,545 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 22:05:06,545 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 22:05:06,545 - ERROR - Request failed for /profile: Invalid URL '/profile': No scheme supplied. Perhaps you meant https:///profile?
+2024-10-21 22:05:06,546 - INFO - Scanning endpoint: /admin
+2024-10-21 22:05:06,546 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 22:05:06,546 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 22:05:06,546 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 22:05:06,547 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 22:05:06,547 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 22:05:06,547 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 22:05:06,547 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 22:05:06,548 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 22:05:06,548 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 22:05:06,548 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 22:05:06,548 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 22:05:06,549 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 22:05:06,549 - ERROR - Request failed for /admin: Invalid URL '/admin': No scheme supplied. Perhaps you meant https:///admin?
+2024-10-21 22:05:06,549 - INFO - Scanning endpoint: /api
+2024-10-21 22:05:06,550 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 22:05:06,550 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 22:05:06,551 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 22:05:06,551 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 22:05:06,552 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 22:05:06,552 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 22:05:06,552 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 22:05:06,552 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 22:05:06,553 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 22:05:06,553 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 22:05:06,553 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 22:05:06,553 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 22:05:06,553 - ERROR - Request failed for /api: Invalid URL '/api': No scheme supplied. Perhaps you meant https:///api?
+2024-10-21 22:05:06,554 - INFO - Scanning endpoint: /upload
+2024-10-21 22:05:06,554 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 22:05:06,554 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 22:05:06,554 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 22:05:06,555 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 22:05:06,555 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 22:05:06,555 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 22:05:06,555 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 22:05:06,556 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 22:05:06,556 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 22:05:06,556 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 22:05:06,556 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 22:05:06,556 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 22:05:06,557 - ERROR - Request failed for /upload: Invalid URL '/upload': No scheme supplied. Perhaps you meant https:///upload?
+2024-10-21 22:05:06,557 - INFO - Scanning endpoint: /settings
+2024-10-21 22:05:06,557 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 22:05:06,558 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 22:05:06,558 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 22:05:06,558 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 22:05:06,558 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 22:05:06,559 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 22:05:06,559 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 22:05:06,559 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 22:05:06,559 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 22:05:06,559 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 22:05:06,560 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 22:05:06,560 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 22:05:06,560 - ERROR - Request failed for /settings: Invalid URL '/settings': No scheme supplied. Perhaps you meant https:///settings?
+2024-10-21 22:05:35,915 - INFO - Starting security scan of https://www.fao.org/
+2024-10-21 22:05:35,916 - INFO - Scanning endpoint: /
+2024-10-21 22:05:44,342 - INFO - Scanning endpoint: /login
+2024-10-21 22:05:55,937 - ERROR - Request failed for https://www.fao.org/login: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-21 22:05:58,839 - INFO - Scanning endpoint: /search
+2024-10-21 22:06:03,333 - INFO - Scanning endpoint: /profile
+2024-10-21 22:06:14,958 - ERROR - Request failed for https://www.fao.org/profile: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-21 22:06:17,268 - INFO - Scanning endpoint: /admin
+2024-10-21 22:06:28,895 - ERROR - Request failed for https://www.fao.org/admin: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-21 22:06:31,802 - INFO - Scanning endpoint: /api
+2024-10-21 22:06:43,362 - ERROR - Request failed for https://www.fao.org/api: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-21 22:06:52,171 - INFO - Scanning endpoint: /upload
+2024-10-21 22:07:04,790 - ERROR - Request failed for https://www.fao.org/upload: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-21 22:07:11,045 - INFO - Scanning endpoint: /settings
+2024-10-21 22:07:23,902 - ERROR - Request failed for https://www.fao.org/settings: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-22 02:06:24,983 - INFO - Starting security scan of https://www.fao.org/
+2024-10-22 02:06:24,983 - INFO - Scanning endpoint: https://www.fao.org/
+2024-10-22 02:06:24,983 - INFO - Scanning endpoint: https://www.fao.org/login
+2024-10-22 02:06:24,983 - INFO - Scanning endpoint: https://www.fao.org/search
+2024-10-22 02:06:24,983 - INFO - Scanning endpoint: https://www.fao.org/profile
+2024-10-22 02:06:24,983 - INFO - Scanning endpoint: https://www.fao.org/admin
+2024-10-22 02:06:32,509 - INFO - Scanning endpoint: https://www.fao.org/api/users
+2024-10-22 02:06:33,696 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://www.fao.org/search', 'issue': 'Missing X-Frame-Options', 'description': 'Vulnerable to clickjacking'}
+2024-10-22 02:06:33,696 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://www.fao.org/search', 'issue': 'Missing X-Content-Type-Options', 'description': 'MIME-sniffing vulnerability'}
+2024-10-22 02:06:33,696 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://www.fao.org/search', 'issue': 'Missing CSP', 'description': 'No Content Security Policy'}
+2024-10-22 02:06:33,712 - INFO - Scanning endpoint: https://www.fao.org/api/products
+2024-10-22 02:06:38,447 - INFO - Scanning endpoint: https://www.fao.org/register
+2024-10-22 02:06:38,745 - ERROR - Request failed for https://www.fao.org/admin: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-22 02:06:38,919 - ERROR - Request failed for https://www.fao.org/login: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-22 02:06:39,010 - ERROR - Request failed for https://www.fao.org/profile: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-22 02:06:40,095 - INFO - Scanning endpoint: https://www.fao.org/forgot-password
+2024-10-22 02:06:42,463 - INFO - Scanning endpoint: https://www.fao.org/settings
+2024-10-22 02:06:51,573 - ERROR - Request failed for https://www.fao.org/register: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-22 02:06:53,251 - ERROR - Request failed for https://www.fao.org/forgot-password: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-22 02:06:55,478 - ERROR - Request failed for https://www.fao.org/settings: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-22 02:06:58,192 - INFO - Scan completed in 33.21 seconds
+2024-10-22 02:24:33,143 - INFO - Starting security scan of https://www.fao.org/
+2024-10-22 02:24:33,143 - INFO - Scanning endpoint: https://www.fao.org/
+2024-10-22 02:24:33,143 - INFO - Scanning endpoint: https://www.fao.org/login
+2024-10-22 02:24:33,143 - INFO - Scanning endpoint: https://www.fao.org/search
+2024-10-22 02:24:33,143 - INFO - Scanning endpoint: https://www.fao.org/profile
+2024-10-22 02:24:33,143 - INFO - Scanning endpoint: https://www.fao.org/admin
+2024-10-22 02:24:40,186 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://www.fao.org/search', 'issue': 'Missing X-Frame-Options', 'description': 'Vulnerable to clickjacking'}
+2024-10-22 02:24:40,186 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://www.fao.org/search', 'issue': 'Missing X-Content-Type-Options', 'description': 'MIME-sniffing vulnerability'}
+2024-10-22 02:24:40,186 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://www.fao.org/search', 'issue': 'Missing CSP', 'description': 'No Content Security Policy'}
+2024-10-22 02:24:47,870 - ERROR - Request failed for https://www.fao.org/login: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-22 02:24:47,941 - ERROR - Request failed for https://www.fao.org/admin: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-22 02:24:48,263 - ERROR - Request failed for https://www.fao.org/profile: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-22 02:24:49,445 - INFO - Scanning endpoint: https://www.fao.org/api/users
+2024-10-22 02:24:49,524 - INFO - Scanning endpoint: https://www.fao.org/api/products
+2024-10-22 02:24:59,210 - INFO - Scanning endpoint: https://www.fao.org/register
+2024-10-22 02:24:59,276 - INFO - Scanning endpoint: https://www.fao.org/forgot-password
+2024-10-22 02:25:00,667 - INFO - Scanning endpoint: https://www.fao.org/settings
+2024-10-22 02:25:12,428 - ERROR - Request failed for https://www.fao.org/register: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-22 02:25:12,792 - ERROR - Request failed for https://www.fao.org/forgot-password: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-22 02:25:14,232 - ERROR - Request failed for https://www.fao.org/settings: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-22 02:25:23,985 - INFO - Scan completed in 50.84 seconds
+2024-10-22 10:14:06,482 - INFO - Starting security scan of https://www.fao.org/
+2024-10-22 10:14:06,498 - INFO - Scanning endpoint: https://www.fao.org/
+2024-10-22 10:14:06,498 - INFO - Scanning endpoint: https://www.fao.org/login
+2024-10-22 10:14:06,498 - INFO - Scanning endpoint: https://www.fao.org/search
+2024-10-22 10:14:06,498 - INFO - Scanning endpoint: https://www.fao.org/profile
+2024-10-22 10:14:06,498 - INFO - Scanning endpoint: https://www.fao.org/admin
+2024-10-22 10:14:21,193 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://www.fao.org/search', 'issue': 'Missing X-Frame-Options', 'description': 'Vulnerable to clickjacking'}
+2024-10-22 10:14:21,193 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://www.fao.org/search', 'issue': 'Missing X-Content-Type-Options', 'description': 'MIME-sniffing vulnerability'}
+2024-10-22 10:14:21,193 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://www.fao.org/search', 'issue': 'Missing CSP', 'description': 'No Content Security Policy'}
+2024-10-22 10:14:24,254 - ERROR - Request failed for https://www.fao.org/login: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-22 10:14:25,096 - ERROR - Request failed for https://www.fao.org/profile: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-22 10:14:26,686 - ERROR - Request failed for https://www.fao.org/admin: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-22 10:14:35,070 - INFO - Scanning endpoint: https://www.fao.org/api/users
+2024-10-22 10:14:37,380 - INFO - Scanning endpoint: https://www.fao.org/api/products
+2024-10-22 10:14:41,755 - INFO - Scanning endpoint: https://www.fao.org/register
+2024-10-22 10:14:42,655 - INFO - Scanning endpoint: https://www.fao.org/forgot-password
+2024-10-22 10:14:44,662 - INFO - Scanning endpoint: https://www.fao.org/settings
+2024-10-22 10:14:59,144 - ERROR - Request failed for https://www.fao.org/register: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-22 10:15:01,050 - ERROR - Request failed for https://www.fao.org/settings: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-22 10:15:02,254 - ERROR - Request failed for https://www.fao.org/forgot-password: HTTPSConnectionPool(host='www.fao.org', port=443): Read timed out. (read timeout=10)
+2024-10-22 10:15:19,900 - INFO - Scan completed in 73.40 seconds
+2024-10-22 10:20:06,783 - INFO - Starting security scan of https://victoryschools.in/Victory
+2024-10-22 10:20:06,783 - INFO - Scanning endpoint: https://victoryschools.in/
+2024-10-22 10:20:06,783 - INFO - Scanning endpoint: https://victoryschools.in/Admin/admin_login.php
+2024-10-22 10:20:06,783 - INFO - Scanning endpoint: https://victoryschools.in/Faculty/faculty_login.php
+2024-10-22 10:20:06,783 - INFO - Scanning endpoint: https://victoryschools.in/Student/student_login.php
+2024-10-22 10:20:06,783 - INFO - Scanning endpoint: https://victoryschools.in/profile
+2024-10-22 10:20:20,605 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/', 'issue': 'Missing X-Frame-Options', 'description': 'Vulnerable to clickjacking'}
+2024-10-22 10:20:20,605 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/', 'issue': 'Missing X-Content-Type-Options', 'description': 'MIME-sniffing vulnerability'}
+2024-10-22 10:20:20,605 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/', 'issue': 'Missing CSP', 'description': 'No Content Security Policy'}
+2024-10-22 10:20:27,606 - INFO - Scanning endpoint: https://victoryschools.in/admin
+2024-10-22 10:20:30,064 - INFO - Scanning endpoint: https://victoryschools.in/api/users
+2024-10-22 10:20:30,064 - INFO - Scanning endpoint: https://victoryschools.in/api/products
+2024-10-22 10:20:30,479 - INFO - Scanning endpoint: https://victoryschools.in/register
+2024-10-22 10:20:31,225 - INFO - Scanning endpoint: https://victoryschools.in/forgot-password
+2024-10-22 10:20:48,094 - INFO - Scanning endpoint: https://victoryschools.in/settings
+2024-10-22 10:21:09,595 - INFO - Scan completed in 62.81 seconds
+2024-10-22 10:22:12,523 - INFO - Starting security scan of https://victoryschools.in
+2024-10-22 10:22:12,523 - INFO - Scanning endpoint: https://victoryschools.in/
+2024-10-22 10:22:12,523 - INFO - Scanning endpoint: https://victoryschools.in/Victory/Admin/admin_login.php
+2024-10-22 10:22:12,523 - INFO - Scanning endpoint: https://victoryschools.in/Victory/Faculty/faculty_login.php
+2024-10-22 10:22:12,523 - INFO - Scanning endpoint: https://victoryschools.in/Victory/Student/student_login.php
+2024-10-22 10:22:12,523 - INFO - Scanning endpoint: https://victoryschools.in/profile
+2024-10-22 10:22:18,606 - WARNING - CSRF vulnerability found: {'type': 'CSRF', 'url': 'https://victoryschools.in/Victory/Faculty/faculty_login.php', 'method': 'POST', 'evidence': 'No CSRF token found in form'}
+2024-10-22 10:22:18,841 - WARNING - CSRF vulnerability found: {'type': 'CSRF', 'url': 'https://victoryschools.in/Victory/Student/student_login.php', 'method': 'POST', 'evidence': 'No CSRF token found in form'}
+2024-10-22 10:22:20,866 - WARNING - CSRF vulnerability found: {'type': 'CSRF', 'url': 'https://victoryschools.in/Victory/Admin/admin_login.php', 'method': 'POST', 'evidence': 'No CSRF token found in form'}
+2024-10-22 10:22:24,444 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/', 'issue': 'Missing X-Frame-Options', 'description': 'Vulnerable to clickjacking'}
+2024-10-22 10:22:24,444 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/', 'issue': 'Missing X-Content-Type-Options', 'description': 'MIME-sniffing vulnerability'}
+2024-10-22 10:22:24,444 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/', 'issue': 'Missing CSP', 'description': 'No Content Security Policy'}
+2024-10-22 10:22:26,138 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Faculty/faculty_login.php', 'issue': 'Missing X-Frame-Options', 'description': 'Vulnerable to clickjacking'}
+2024-10-22 10:22:26,138 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Faculty/faculty_login.php', 'issue': 'Missing X-Content-Type-Options', 'description': 'MIME-sniffing vulnerability'}
+2024-10-22 10:22:26,138 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Faculty/faculty_login.php', 'issue': 'Missing CSP', 'description': 'No Content Security Policy'}
+2024-10-22 10:22:26,678 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Admin/admin_login.php', 'issue': 'Missing X-Frame-Options', 'description': 'Vulnerable to clickjacking'}
+2024-10-22 10:22:26,678 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Admin/admin_login.php', 'issue': 'Missing X-Content-Type-Options', 'description': 'MIME-sniffing vulnerability'}
+2024-10-22 10:22:26,678 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Admin/admin_login.php', 'issue': 'Missing CSP', 'description': 'No Content Security Policy'}
+2024-10-22 10:22:28,449 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Student/student_login.php', 'issue': 'Missing X-Frame-Options', 'description': 'Vulnerable to clickjacking'}
+2024-10-22 10:22:28,449 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Student/student_login.php', 'issue': 'Missing X-Content-Type-Options', 'description': 'MIME-sniffing vulnerability'}
+2024-10-22 10:22:28,449 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Student/student_login.php', 'issue': 'Missing CSP', 'description': 'No Content Security Policy'}
+2024-10-22 10:22:34,117 - INFO - Scanning endpoint: https://victoryschools.in/admin
+2024-10-22 10:22:36,562 - INFO - Scanning endpoint: https://victoryschools.in/api/users
+2024-10-22 10:22:36,586 - INFO - Scanning endpoint: https://victoryschools.in/api/products
+2024-10-22 10:22:37,254 - INFO - Scanning endpoint: https://victoryschools.in/register
+2024-10-22 10:22:38,571 - INFO - Scanning endpoint: https://victoryschools.in/forgot-password
+2024-10-22 10:22:53,986 - INFO - Scanning endpoint: https://victoryschools.in/settings
+2024-10-22 10:23:14,109 - INFO - Scan completed in 61.59 seconds
+2024-10-22 12:32:08,786 - INFO - Starting security scan of https://victoryschools.in
+2024-10-22 12:32:08,786 - INFO - Scanning endpoint: https://victoryschools.in/
+2024-10-22 12:32:08,786 - INFO - Scanning endpoint: https://victoryschools.in/Victory/Admin/admin_login.php
+2024-10-22 12:32:08,786 - INFO - Scanning endpoint: https://victoryschools.in/Victory/Faculty/faculty_login.php
+2024-10-22 12:32:08,786 - INFO - Scanning endpoint: https://victoryschools.in/Victory/Student/student_login.php
+2024-10-22 12:32:08,786 - INFO - Scanning endpoint: https://victoryschools.in/profile
+2024-10-22 12:32:17,363 - WARNING - CSRF vulnerability found: {'type': 'CSRF', 'url': 'https://victoryschools.in/Victory/Faculty/faculty_login.php', 'method': 'POST', 'evidence': 'No CSRF token found in form'}
+2024-10-22 12:32:19,388 - WARNING - CSRF vulnerability found: {'type': 'CSRF', 'url': 'https://victoryschools.in/Victory/Admin/admin_login.php', 'method': 'POST', 'evidence': 'No CSRF token found in form'}
+2024-10-22 12:32:20,565 - WARNING - CSRF vulnerability found: {'type': 'CSRF', 'url': 'https://victoryschools.in/Victory/Student/student_login.php', 'method': 'POST', 'evidence': 'No CSRF token found in form'}
+2024-10-22 12:32:24,418 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/', 'issue': 'Missing X-Frame-Options', 'description': 'Vulnerable to clickjacking'}
+2024-10-22 12:32:24,418 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/', 'issue': 'Missing X-Content-Type-Options', 'description': 'MIME-sniffing vulnerability'}
+2024-10-22 12:32:24,418 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/', 'issue': 'Missing CSP', 'description': 'No Content Security Policy'}
+2024-10-22 12:32:25,329 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Admin/admin_login.php', 'issue': 'Missing X-Frame-Options', 'description': 'Vulnerable to clickjacking'}
+2024-10-22 12:32:25,329 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Admin/admin_login.php', 'issue': 'Missing X-Content-Type-Options', 'description': 'MIME-sniffing vulnerability'}
+2024-10-22 12:32:25,329 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Admin/admin_login.php', 'issue': 'Missing CSP', 'description': 'No Content Security Policy'}
+2024-10-22 12:32:26,770 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Faculty/faculty_login.php', 'issue': 'Missing X-Frame-Options', 'description': 'Vulnerable to clickjacking'}
+2024-10-22 12:32:26,770 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Faculty/faculty_login.php', 'issue': 'Missing X-Content-Type-Options', 'description': 'MIME-sniffing vulnerability'}
+2024-10-22 12:32:26,770 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Faculty/faculty_login.php', 'issue': 'Missing CSP', 'description': 'No Content Security Policy'}
+2024-10-22 12:32:28,685 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Student/student_login.php', 'issue': 'Missing X-Frame-Options', 'description': 'Vulnerable to clickjacking'}
+2024-10-22 12:32:28,685 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Student/student_login.php', 'issue': 'Missing X-Content-Type-Options', 'description': 'MIME-sniffing vulnerability'}
+2024-10-22 12:32:28,685 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Student/student_login.php', 'issue': 'Missing CSP', 'description': 'No Content Security Policy'}
+2024-10-22 12:32:33,594 - INFO - Scanning endpoint: https://victoryschools.in/admin
+2024-10-22 12:32:34,246 - INFO - Scanning endpoint: https://victoryschools.in/api/users
+2024-10-22 12:32:34,612 - INFO - Scanning endpoint: https://victoryschools.in/api/products
+2024-10-22 12:32:35,850 - INFO - Scanning endpoint: https://victoryschools.in/register
+2024-10-22 12:32:38,945 - INFO - Scanning endpoint: https://victoryschools.in/forgot-password
+2024-10-22 12:32:54,642 - INFO - Scanning endpoint: https://victoryschools.in/settings
+2024-10-22 12:33:17,294 - INFO - Scan completed in 68.51 seconds
+2024-11-12 00:10:37,114 - INFO - Starting security scan of https://victoryschools.in
+2024-11-12 00:10:37,114 - INFO - Scanning endpoint: https://victoryschools.in/
+2024-11-12 00:10:37,114 - INFO - Scanning endpoint: https://victoryschools.in/Victory/Admin/admin_login.php
+2024-11-12 00:10:37,114 - INFO - Scanning endpoint: https://victoryschools.in/Victory/Faculty/faculty_login.php
+2024-11-12 00:10:37,114 - INFO - Scanning endpoint: https://victoryschools.in/Victory/Student/student_login.php
+2024-11-12 00:10:37,114 - INFO - Scanning endpoint: https://victoryschools.in/profile
+2024-11-12 00:10:41,616 - WARNING - CSRF vulnerability found: {'type': 'CSRF', 'url': 'https://victoryschools.in/Victory/Faculty/faculty_login.php', 'method': 'POST', 'evidence': 'No CSRF token found in form'}
+2024-11-12 00:10:41,778 - WARNING - CSRF vulnerability found: {'type': 'CSRF', 'url': 'https://victoryschools.in/Victory/Admin/admin_login.php', 'method': 'POST', 'evidence': 'No CSRF token found in form'}
+2024-11-12 00:10:42,433 - WARNING - CSRF vulnerability found: {'type': 'CSRF', 'url': 'https://victoryschools.in/Victory/Student/student_login.php', 'method': 'POST', 'evidence': 'No CSRF token found in form'}
+2024-11-12 00:10:44,921 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/', 'issue': 'Missing X-Frame-Options', 'description': 'Vulnerable to clickjacking'}
+2024-11-12 00:10:44,921 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/', 'issue': 'Missing X-Content-Type-Options', 'description': 'MIME-sniffing vulnerability'}
+2024-11-12 00:10:44,921 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/', 'issue': 'Missing CSP', 'description': 'No Content Security Policy'}
+2024-11-12 00:10:45,693 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Faculty/faculty_login.php', 'issue': 'Missing X-Frame-Options', 'description': 'Vulnerable to clickjacking'}
+2024-11-12 00:10:45,693 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Faculty/faculty_login.php', 'issue': 'Missing X-Content-Type-Options', 'description': 'MIME-sniffing vulnerability'}
+2024-11-12 00:10:45,705 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Faculty/faculty_login.php', 'issue': 'Missing CSP', 'description': 'No Content Security Policy'}
+2024-11-12 00:10:45,791 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Admin/admin_login.php', 'issue': 'Missing X-Frame-Options', 'description': 'Vulnerable to clickjacking'}
+2024-11-12 00:10:45,806 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Admin/admin_login.php', 'issue': 'Missing X-Content-Type-Options', 'description': 'MIME-sniffing vulnerability'}
+2024-11-12 00:10:45,808 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Admin/admin_login.php', 'issue': 'Missing CSP', 'description': 'No Content Security Policy'}
+2024-11-12 00:10:46,004 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Student/student_login.php', 'issue': 'Missing X-Frame-Options', 'description': 'Vulnerable to clickjacking'}
+2024-11-12 00:10:46,004 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Student/student_login.php', 'issue': 'Missing X-Content-Type-Options', 'description': 'MIME-sniffing vulnerability'}
+2024-11-12 00:10:46,004 - WARNING - Security configuration issue found: {'type': 'Insecure Configuration', 'url': 'https://victoryschools.in/Victory/Student/student_login.php', 'issue': 'Missing CSP', 'description': 'No Content Security Policy'}
+2024-11-12 00:10:51,997 - INFO - Scanning endpoint: https://victoryschools.in/admin
+2024-11-12 00:10:52,237 - INFO - Scanning endpoint: https://victoryschools.in/api/users
+2024-11-12 00:10:52,894 - INFO - Scanning endpoint: https://victoryschools.in/api/products
+2024-11-12 00:10:52,964 - INFO - Scanning endpoint: https://victoryschools.in/register
+2024-11-12 00:10:53,300 - INFO - Scanning endpoint: https://victoryschools.in/forgot-password
+2024-11-12 00:11:06,576 - INFO - Scanning endpoint: https://victoryschools.in/settings
+2024-11-12 00:11:20,565 - INFO - Scan completed in 43.45 seconds

@@ -1,0 +1,13 @@
+{
+    "scan_time": "2024-10-21T22:07:29.663360",
+    "target_url": "https://www.fao.org/",
+    "metrics": {
+        "total_vulnerabilities": 0,
+        "risk_by_type": {},
+        "overall_risk_score": 0,
+        "high_risk_count": 0,
+        "medium_risk_count": 0,
+        "low_risk_count": 0
+    },
+    "vulnerabilities": []
+}
