@@ -1,4 +1,3 @@
-Here’s a README file to accompany the Web Application Security Scanner project on GitHub:
 
 ---
 
@@ -8,21 +7,21 @@ Here’s a README file to accompany the Web Application Security Scanner project
 
 ## Overview
 
-The Web Application Security Scanner is designed to help developers and security professionals detect common vulnerabilities in web applications, such as:
+The Web Application Security Scanner helps developers and security professionals detect common vulnerabilities in web applications, including:
 - **Cross-Site Scripting (XSS)**
 - **SQL Injection**
 - **Cross-Site Request Forgery (CSRF)**
 - **Directory Traversal**
 - **Insecure Endpoint Configurations**
 
-By scanning specified web application endpoints with customized payloads, this tool provides a quick, proactive way to identify and address security risks before they can be exploited in a production environment.
+By scanning specified web application endpoints, this tool provides a quick, proactive approach to identifying and addressing security risks before they can be exploited in a production environment.
 
 ## Features
 
 - **Modular Scanning** for various vulnerabilities
 - **Risk Scoring** to prioritize identified issues
 - **JSON Reporting** for detailed analysis and documentation
-- **Logging** of all findings and errors for troubleshooting
+- **Logging** of findings and errors for troubleshooting
 - **Configurable Payloads and Endpoints** to customize scan settings
 
 ## Requirements
@@ -77,19 +76,36 @@ pip install requests beautifulsoup4
 
 ## Example
 
-After setting `base_url` to `https://example.com` and `endpoints` to `["/login", "/search"]`, running the scanner may produce console output like this:
-```
-Scanning https://example.com/login...
-[XSS] Vulnerability found at https://example.com/login
-[SQL Injection] Vulnerability found at https://example.com/search
+After setting `base_url` to `https://victoryschools.in` and specifying relevant endpoints, running the scanner may produce console output like this:
 
+```
 Scan Summary:
 --------------------------------------------------
-Total vulnerabilities found: 2
-High risk vulnerabilities: 1
-Medium risk vulnerabilities: 1
-Low risk vulnerabilities: 0
-Overall risk score: 8.0/10
+Total endpoints scanned: 11
+Total vulnerabilities found: 15
+
+Vulnerabilities for https://victoryschools.in/:
+- Insecure Configuration: Vulnerable to clickjacking
+- Insecure Configuration: MIME-sniffing vulnerability
+- Insecure Configuration: No Content Security Policy
+
+Vulnerabilities for https://victoryschools.in/Victory/Faculty/faculty_login.php:
+- CSRF: No CSRF token found in form
+- Insecure Configuration: Vulnerable to clickjacking
+- Insecure Configuration: MIME-sniffing vulnerability
+- Insecure Configuration: No Content Security Policy
+
+Vulnerabilities for https://victoryschools.in/Victory/Admin/admin_login.php:
+- CSRF: No CSRF token found in form
+- Insecure Configuration: Vulnerable to clickjacking
+- Insecure Configuration: MIME-sniffing vulnerability
+- Insecure Configuration: No Content Security Policy
+
+Vulnerabilities for https://victoryschools.in/Victory/Student/student_login.php:
+- CSRF: No CSRF token found in form
+- Insecure Configuration: Vulnerable to clickjacking
+- Insecure Configuration: MIME-sniffing vulnerability
+- Insecure Configuration: No Content Security Policy
 ```
 
 ## Modules
@@ -122,4 +138,3 @@ Overall risk score: 8.0/10
 Contributions are welcome! Please open an issue to discuss any changes or submit a pull request.
 
 ---
-
